@@ -17,7 +17,7 @@ int main()
         {
             if(a>=70)
             {
-                print("C");
+                printf("C");
             }
             else
             {
