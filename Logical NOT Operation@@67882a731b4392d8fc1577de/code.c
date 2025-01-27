@@ -11,7 +11,5 @@ int main()
     {
         printf("False");
     }
-
-    printf("%s", welcome());
     return 0;
 }
