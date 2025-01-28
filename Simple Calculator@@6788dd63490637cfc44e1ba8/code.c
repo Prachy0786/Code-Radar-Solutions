@@ -6,13 +6,13 @@ int main()
     scanf("%f %f %c",&a,&b,&c);
     switch(c)
     {
-        case '+' : printf("%.3f",a+b);
+        case '+' : printf("%d"a+b);
         break;
-        case '-' : printf("%.3f",a-b);
+        case '-' : printf("%d",a-b);
         break;
         case '/' : printf("%.3f",a/b);
         break;
-        case '*' : printf("%.3f",a*b);
+        case '*' : printf("%d",a*b);
         break;
         default  : printf("error");
     }
