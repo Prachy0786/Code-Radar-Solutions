@@ -18,7 +18,7 @@ int main()
     }
     else
     {
-        if(c==1 || i==0 || i=1)
+        if(c==1 || i==0 || i==1)
         {
             printf("Not Prime");
         }
