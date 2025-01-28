@@ -12,13 +12,13 @@ int main()
             break;
         }
     }
-    if(c==1)
+    if(c==0)
     {
         printf("Prime");
     }
     else
     {
-        if(c==0 || i==0 || i=1)
+        if(c==1 || i==0 || i=1)
         {
             printf("Not Prime");
         }
