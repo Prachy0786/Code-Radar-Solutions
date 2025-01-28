@@ -10,7 +10,7 @@ int main()
         break;
         case '-' : printf("%d",a-b);
         break;
-        case '/' : printf("%.3f",a/b);
+        case '/' : printf("%d",a/b);
         break;
         case '*' : printf("%d",a*b);
         break;
