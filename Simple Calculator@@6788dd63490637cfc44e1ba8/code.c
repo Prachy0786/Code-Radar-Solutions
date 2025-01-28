@@ -3,7 +3,9 @@ int main()
 {
     float a,b;
     char c;
-    scanf("%f %f %c",&a,&b,&c);
+    scanf("%f ",&a);
+    scanf("%f",&b);
+    scanf("%c",&c);
     switch(c)
     {
         case '+' : printf("%d",a+b);
