@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int i,a[n],c=0;
+    int i,a[n],c=0,f=0;
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
@@ -13,9 +13,17 @@ int main()
         if(a[i]>=a[i+1])
         {
             c=a[i];
+            f=1
             break;
         }
     }
-    printf("%d",c);
+    if(f==1)
+    {
+        printf("%d",c);
+    }
+    else
+    {
+        printf("-1");
+    }    
     return 0;
 }
