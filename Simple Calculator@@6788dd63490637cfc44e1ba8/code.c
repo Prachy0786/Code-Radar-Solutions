@@ -3,6 +3,7 @@ int main()
 {
     float a,b;
     char c;
+    get char();
     scanf("%f",&a);
     scanf("%f",&b);
     scanf(" %c",&c);
