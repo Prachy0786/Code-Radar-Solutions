@@ -11,6 +11,7 @@ int main()
             printf("%d ",c);
             c++;
         }
+        printf("/n");
     }     
     return 0;
 }
