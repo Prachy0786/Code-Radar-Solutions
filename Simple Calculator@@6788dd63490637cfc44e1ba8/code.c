@@ -3,8 +3,8 @@ int main()
 {
     int a,b;
     char c;
-    scanf("%f",&a);
-    scanf("%f",&b);
+    scanf("%d",&a);
+    scanf("%d",&b);
     get char();
     scanf("%c",c);
     switch(c)
