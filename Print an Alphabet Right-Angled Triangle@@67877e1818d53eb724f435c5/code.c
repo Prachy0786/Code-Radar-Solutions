@@ -6,9 +6,9 @@ int main()
     int i,j;
     for(i=1;i<=a;i++)
     {
-        for(j=65;j<=(j+i-1);j++)
+        for(j=0;j<=i;j++)
         {
-            printf("%c ",j);
+            printf("%c ",'A'+j);
         }
         printf("\n");
     }
