@@ -9,16 +9,25 @@ int main()
         scanf("%d",&a[i]);
     }
     int k;      scanf("%d",&k);
+    int d=0,f=0;
     for(i=0;i<n;i=i+1)
     {
         if(i==(k-1))
         {
-            printf("%d",a[k-1]);
+            d=a[k-1];
         }
         else
         {
-            printf("-1");
+            f=1;
         }
+    }
+    if(f==0)
+    {
+        printf("%d",d);
+    }
+    else
+    {
+        printf("-1");
     }
     return 0;
 }
