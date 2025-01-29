@@ -6,7 +6,7 @@ int main()
     int i,j;
     for(i=a;i>=1;i=i-1)
     {
-        for(j=1;j<=a;j=j+1)
+        for(j=1;j<=i;j=j+1)
         {
             printf("%c ",'A'+j);
         }
