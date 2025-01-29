@@ -15,13 +15,10 @@ int main()
         if(k==a[i])
         {
             d=i;
-        }
-        else
-        {
             f=1;
         }
     }
-    if(f==0)
+    if(f==1)
     {
         printf("%d",d);
     }
