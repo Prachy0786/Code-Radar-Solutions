@@ -5,7 +5,7 @@ int main()
     char c;
     scanf("%d",&a);
     scanf("%d",&b);
-    get char();
+    getchar();
     scanf("%c",c);
     switch(c)
     {
