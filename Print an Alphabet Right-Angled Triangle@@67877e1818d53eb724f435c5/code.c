@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    scanf("%d",a);
+    scanf("%d",&a);
     int i,j;
     for(i=1;i<=a;i=i+1)
     {
