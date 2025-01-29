@@ -13,7 +13,7 @@ int main()
         if(a[i]>=a[i+1])
         {
             c=a[i];
-            f=1
+            f=1;
             break;
         }
     }
