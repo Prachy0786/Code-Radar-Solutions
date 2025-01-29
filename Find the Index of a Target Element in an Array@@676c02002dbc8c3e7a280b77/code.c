@@ -16,6 +16,7 @@ int main()
         {
             d=i;
             f=1;
+            break;
         }
     }
     if(f==1)
