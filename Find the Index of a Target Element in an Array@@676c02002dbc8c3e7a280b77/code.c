@@ -12,9 +12,9 @@ int main()
     int d=0,f=0;
     for(i=0;i<n;i=i+1)
     {
-        if(i==(k-1))
+        if(k==a[i])
         {
-            d=a[k-1];
+            d=i;
         }
         else
         {
