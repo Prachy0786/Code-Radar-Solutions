@@ -10,7 +10,7 @@ int main()
     }
     for(i=0;i<n-1;i=i+1)
     {
-        if(a[i]>=a[i+1])
+        if(a[i]<=a[i+1])
         {
             c=a[i];
             break;
