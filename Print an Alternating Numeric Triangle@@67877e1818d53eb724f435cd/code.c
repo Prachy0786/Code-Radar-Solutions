@@ -8,7 +8,7 @@ int main()
     {
         for(j=1;j<=i;j=j+1)
         {
-           if(c%2==0)
+           if(j%2==0)
            {
             printf("0 ");
            }
