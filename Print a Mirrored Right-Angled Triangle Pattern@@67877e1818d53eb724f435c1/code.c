@@ -15,7 +15,6 @@ int main()
             printf("*");
         }
         printf("\n");
-        s--;
     }
     return 0;
 }
