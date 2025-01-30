@@ -3,12 +3,12 @@ int main()
 {
     char a;
     getchar();
+    scanf("%c",&a);
     int c=0;
-    scanf(" %c",&a);
     char y,k;
     for(y='A';y<='Z';y=y+1)
     {
-        if(a==y)
+        if(y==a)
         {
             c=1;
             break;
