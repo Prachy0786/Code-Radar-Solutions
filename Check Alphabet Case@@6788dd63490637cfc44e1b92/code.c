@@ -2,9 +2,9 @@
 int main() 
 {
     char a;
-    getchar();
+    get char();
     int c=0;
-    scanf("%c",&a);
+    scanf(" %c",&a);
     char y,k;
     for(y='A';y<='Z';y=y+1)
     {
