@@ -2,8 +2,7 @@
 int main() 
 {
     char a;
-    getchar();
-    scanf(" %c",&a);
+    scanf("%c",&a);
     int c=0;
     char y,k;
     for(y='A';y<='Z';y=y+1)
