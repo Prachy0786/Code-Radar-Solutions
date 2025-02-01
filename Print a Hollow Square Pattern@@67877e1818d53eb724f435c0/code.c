@@ -8,7 +8,10 @@ int main()
     {
         for(j=1;j<=a;j=j+1)
         {
-            printf("*");
+            if(j==1 || j==a)
+            {
+                printf("*");
+            }
         }
         printf("\n");
     }
