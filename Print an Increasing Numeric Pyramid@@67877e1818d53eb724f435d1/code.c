@@ -6,6 +6,10 @@ int main()
     int i,j;
     for(i=1;i<=a;i=i+1)
     {
+        for(k=1;k<=i-1;k=k+1)
+        {
+            printf(" ");
+        }
         for(j=1;j<=i;j=j+1)
         {
             printf("%d",j);
