@@ -7,5 +7,23 @@ int main()
     {
         printf("Digit");
     }
+    else
+    {
+        if(a=='i' || a=='a' || a=='e' || a=='o' || a=='u')
+        {
+            printf("Vowel");
+        }
+        else
+        {
+            if(a>='a' && a<='z')
+            {
+                printf("Consonant");
+            }
+            else
+            {
+                printf("Special Character");
+            }
+        }
+    }
     return 0;
 }
