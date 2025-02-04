@@ -6,12 +6,11 @@ int main()
     int i,j;
     for(i=1;i<=a;i=i+1)
     {
-        for(j=1;j<=a;j=j+1)
+        for(j=1;j<=a;j=j+a-1)
         {
-            if(i==1 || i==a)
-            {
+            
                 printf("*");
-            }
+        
         }
         printf("\n");
     }
