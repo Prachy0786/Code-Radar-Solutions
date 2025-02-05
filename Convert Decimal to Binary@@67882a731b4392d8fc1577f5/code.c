@@ -9,7 +9,7 @@ int main()
     {
         n=a%2;
         k=k+n*10;
-        a=a/10;
+        a=a/2;
     }
     printf("%d",k);
     return 0;
