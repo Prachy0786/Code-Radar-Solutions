@@ -4,7 +4,7 @@ int main()
     int a,b;
     scanf("%d %d",&a,&b);
     int x = 1<<b;
-    int y = a & x;
+    int y = a | x;
     if(y%2==0)
     {
         printf("1");
