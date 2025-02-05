@@ -15,7 +15,7 @@ int main()
             printf("%d",j);
             for(j=i;j>=1;j=j-1)
             {
-                printf("%d",j)
+                printf("%d",j);
             }
         }
         s=s-1;
