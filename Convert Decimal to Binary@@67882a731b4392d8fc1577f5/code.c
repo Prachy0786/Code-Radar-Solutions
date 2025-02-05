@@ -8,7 +8,7 @@ int main()
     while(a>0)
     {
         n=a%2;
-        k=k+n*10;
+        k=k*10+n;
         a=a/2;
     }
     printf("%d",k);
