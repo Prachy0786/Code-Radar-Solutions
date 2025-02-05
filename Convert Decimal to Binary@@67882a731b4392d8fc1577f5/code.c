@@ -4,7 +4,7 @@ int main()
     int a;
     scanf("%d",&a);
     int n;
-    k=0;
+    int k=0;
     while(a>0)
     {
         n=a%10;
