@@ -29,6 +29,7 @@ int main()
             printf("*");
         }
         printf("\n");
+        s=s+1;
     }
     return 0;
 }
