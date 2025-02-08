@@ -15,6 +15,10 @@ int main()
         {
             printf("%d",j);
         }
+        for(j=i+1;j<=n;j=j+1)
+        {
+            printf("%d",j);
+        }
         printf("\n");
         s=s-1;
     }
