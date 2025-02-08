@@ -4,7 +4,7 @@ int main()
     int n;
     scanf("%d",&n);
     int i,j,k;
-    s=n-1;
+    int s=n-1;
     for(i=1;i<=n;i=i+1)
     {
         for(k=1;k<=s;k=k+1)
@@ -15,6 +15,8 @@ int main()
         {
             printf("%d",j);
         }
+        printf("\n");
+        s=s-1;
     }
     return 0;
 }
