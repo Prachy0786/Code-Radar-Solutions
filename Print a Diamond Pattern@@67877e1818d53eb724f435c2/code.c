@@ -18,13 +18,13 @@ int main()
         printf("\n");
     }
     s=1;
-    for(i=a;i>=1;i=i-2)
+    for(i=a-1;i>=1;i=i-2)
     {
         for(k=1;k<=s;k=k+1)
         {
             printf(" ");
         }
-        for(j=1;j<=i;j=j+1)
+        for(j=1;j<=2*i-1;j=j+1)
         {
             printf("*");
         }
