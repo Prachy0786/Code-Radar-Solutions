@@ -18,7 +18,7 @@ int main()
         printf("\n");
     }
     s=1;
-    for(i=a-1;i>=1;i=i-1)
+    for(i=a*2-1;i>=1;i=i-1)
     {
         for(k=1;k<=s;k=k+1)
         {
