@@ -26,7 +26,7 @@ int main()
         }
         for(j=1;j<=i;j=j+1)
         {
-            printf("%d",j);
+            printf("*");
         }
         printf("\n");
     }
