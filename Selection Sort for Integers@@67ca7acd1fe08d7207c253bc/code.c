@@ -2,7 +2,7 @@
 
 void printArray(int* a,int n)
 {
-    
+
 }
 void selectionSort(int* a,int n)
 {
@@ -21,6 +21,6 @@ void selectionSort(int* a,int n)
     }
     for(i=0;i<n;i=i+1)
     {
-        printf("%d "a[i]);
+        printf("%d ",a[i]);
     }
 }
