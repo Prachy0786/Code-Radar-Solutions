@@ -11,8 +11,5 @@ int kthSmallest(int* a , int n ,int k)
             a[i]=c;
         }
     }
-    for(i=0;i<n;i=i+1)
-    {
-        return a[i];
-    }
+        return a[k-1];
 }
