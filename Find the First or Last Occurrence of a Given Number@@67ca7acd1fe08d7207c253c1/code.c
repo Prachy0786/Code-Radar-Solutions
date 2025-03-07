@@ -1,7 +1,7 @@
 // Your code here...
 int findOccurrence(int* arr,int n,int target,char mode)
 {
-    int i,c;
+    int i,c=-1;
         for(i=0;i<n;i=i+1)
         {
             if(target==arr[i])
