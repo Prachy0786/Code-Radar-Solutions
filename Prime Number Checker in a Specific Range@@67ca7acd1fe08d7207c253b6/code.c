@@ -19,7 +19,7 @@ int printPrimesInRange(int a,int b)
             k=k+1;
         }
     }
-    if(k==0 || a==0 || a==1 || b==1 || b==0)
+    if(k==0)
     {
         printf("No prime numbers");
     }
