@@ -2,6 +2,10 @@
 
 void printArray(int* a,int n)
 {
+    
+}
+void selectionSort(int* a,int n)
+{
     int d,i,c;
     for(d=0;d<n;d=d+1)
     {
@@ -15,5 +19,8 @@ void printArray(int* a,int n)
         }
     }
     }
-    
+    for(i=0;i<n;i=i+1)
+    {
+        printf("%d "a[i]);
+    }
 }
