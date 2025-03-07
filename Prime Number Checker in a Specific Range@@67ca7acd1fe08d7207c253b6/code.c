@@ -15,15 +15,16 @@ int printPrimesInRange(int a,int b)
                 break;
             }
         }
-        }
         if(c==0 && i!=1 && i!=0)
         {
             printf("%d ",i);
             k=k+1;
         }
+        
     }
     if(k==0)
     {
         printf("No prime numbers");
+    }
     }
 }
