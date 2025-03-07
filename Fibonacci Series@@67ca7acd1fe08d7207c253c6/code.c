@@ -6,7 +6,7 @@ void fibonacciSeries(int n)
     {
         printf("%d",a);
         c=a+b;
-        b=a;
-        a=c;
+        a=b;
+        b=c;
     }
 }
