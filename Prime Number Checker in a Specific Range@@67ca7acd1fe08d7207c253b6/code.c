@@ -13,7 +13,7 @@ int printPrimesInRange(int a,int b)
                 break;
             }
         }
-        if(c==0)
+        if(c==0 && i!=1)
         {
             printf("%d ",i);
         }
