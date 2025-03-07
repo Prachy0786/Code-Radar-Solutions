@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 int isPrime(int n)
 {
     int c=1,i;
@@ -11,14 +11,4 @@ int isPrime(int n)
         }
     }
     return c;
-}
-int main()
-{
-    int t;     scanf("%d",&t);
-    while(t--)
-    {
-        int n;    scanf("%d",&n);
-        printf("%d\n",isPrime(n));
-    }
-    return 0;
 }
