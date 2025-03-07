@@ -1,4 +1,8 @@
 // Your code here...
+void printArray(int* a , int n)
+{
+    
+}
 void bubbleSort(int* a , int n)
 {
     int d,i,c;
