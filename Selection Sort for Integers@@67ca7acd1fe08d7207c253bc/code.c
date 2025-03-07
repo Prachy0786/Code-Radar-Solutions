@@ -1,4 +1,5 @@
 // Your code here...
+
 void selectionSort(int* a,int n)
 {
     int d,i,c;
@@ -14,5 +15,5 @@ void selectionSort(int* a,int n)
         }
     }
     }
-    printArray(a,n);
+    
 }
