@@ -1,5 +1,5 @@
 // Your code here...
-void bubbleSort(int* a , int n;)
+void bubbleSort(int* a , int n)
 {
     int d,i,c;
     for(d=0;d<n;d=d+1)
