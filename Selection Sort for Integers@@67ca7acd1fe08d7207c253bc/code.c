@@ -21,6 +21,7 @@ void selectionSort(int* a,int n)
             a[i]=c;
         }
     }
-    printArray(a,n);
+    
     }
+    printArray(a,n);
 }
