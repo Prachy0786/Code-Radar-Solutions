@@ -11,5 +11,8 @@ int kthSmallest(int* a , int n ,int k)
                 a[i+1]=c;
         }
     }
-        printf("%d",a[k]);
+     for(i=0;i<n;i=i+1)
+     {
+        printf("%d",a[i]);
+     }   
 }
