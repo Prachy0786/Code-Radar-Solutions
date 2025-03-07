@@ -9,7 +9,6 @@ int findOccurrence(int* arr,int n,int target,char mode)
                 if(mode=='F')
                 {
                     c=i;
-                    
                     break;
                 }
                 else
