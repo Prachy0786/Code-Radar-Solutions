@@ -21,10 +21,11 @@ int printPrimesInRange(int a,int b)
             k=k+1;
         }
         
-        }
+        
     if(k==0)
     {
         printf("No prime numbers");
+    }
     }
     }
 }
