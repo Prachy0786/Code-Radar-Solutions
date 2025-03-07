@@ -15,6 +15,6 @@ int findOccurrence(int* arr,int n,int target,char mode)
                 c=i;
             }
         }
-        return i;
     }
+    return c;
 }
