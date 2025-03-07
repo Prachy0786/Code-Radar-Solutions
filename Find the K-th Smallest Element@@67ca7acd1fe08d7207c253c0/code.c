@@ -15,5 +15,12 @@ int kthSmallest(int* a , int n ,int k)
         }
     }
     }
-        return a[k-1];
+    if(k>=0 && k<=n)
+    {
+        return a[k];
+    }
+    else
+    {
+        return -1;
+    }
 }
