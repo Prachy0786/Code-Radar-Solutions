@@ -1,6 +1,6 @@
 // Your code here...
 
-void selectionSort(int* a,int n)
+void printArray(int* a,int n)
 {
     int d,i,c;
     for(d=0;d<n;d=d+1)
