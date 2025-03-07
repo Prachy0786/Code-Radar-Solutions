@@ -1,5 +1,5 @@
 // Your code here...
-int KthSmallest(int* arr , int n ,int k)
+int KthSmallest(int* a , int n ,int k)
 {
     int i;int c=0;
     for(i=0;i<n;i=i+1)
