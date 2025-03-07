@@ -4,8 +4,6 @@ int printPrimesInRange(int a,int b)
     int i,j,k=0;
     for(i=a;i<=b;i=i+1)
     {
-        if(i>0)
-        {
         int c=0;
         for(j=2;j<i;j=j+1)
         {
@@ -24,6 +22,5 @@ int printPrimesInRange(int a,int b)
     if(k==0 || a==0 || a==1 || b==1 || b==0)
     {
         printf("No prime numbers");
-    }
     }
 }
