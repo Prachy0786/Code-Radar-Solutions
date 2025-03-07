@@ -6,9 +6,9 @@ int kthSmallest(int* a , int n ,int k)
     {
         if(a[i]<a[i+1])
         {
-                c=a[i];
-                a[i]=a[i+1];
-                a[i+1]=c;
+            c=a[i+1];
+            a[i+1]=a[i];
+            a[i]=c;
         }
     }
      for(i=0;i<n;i=i+1)
