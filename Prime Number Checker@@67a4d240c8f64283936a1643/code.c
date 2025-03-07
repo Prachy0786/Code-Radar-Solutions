@@ -10,7 +10,7 @@ int isPrime(int n)
             break;
         }
     }
-    if(c==0 && n==1 && n==0)
+    if(c==0 || n==1 || n==0)
     {
         return 0;
     }
