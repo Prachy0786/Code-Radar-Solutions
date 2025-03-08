@@ -8,6 +8,7 @@ int main()
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
+    }    
     int c=0;
     for(i=0;i<n;i=i+1)
     {
@@ -26,4 +27,4 @@ int main()
         }
     }
     printf("%d",c);   
-}    
+}      
