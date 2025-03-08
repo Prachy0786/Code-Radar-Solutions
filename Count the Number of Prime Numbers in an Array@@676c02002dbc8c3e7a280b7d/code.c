@@ -5,13 +5,13 @@ int main()
     int n,i;
     scanf("%d",&n);
     int a[n];
-    int c=0,d=1;
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
-    }
+    int c=0;
     for(i=0;i<n;i=i+1)
     {
+        int d=1;
         for(int j=2;j<a[i];j++)
         {
             if(a[i]%j==0)
