@@ -13,7 +13,7 @@ int main()
     {
         for(i=d+1;i<n-1;i++)
         {
-            if(c<a[d]*a[i])
+            if(c<(a[d]*a[i]))
             {
                 c=a[i]*a[d];
             }
