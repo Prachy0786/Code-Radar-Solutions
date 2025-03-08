@@ -10,7 +10,7 @@ int main()
         if(c>a[i])
         {
             d=c;
-            c=a[i]''
+            c=a[i];
         }
         else
         {
