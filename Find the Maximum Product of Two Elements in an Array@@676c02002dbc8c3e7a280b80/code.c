@@ -11,7 +11,7 @@ int main()
     int d,c=0;
     for(d=0;d<n;d++)
     {
-        for(i=d+1;i<n-1;i++)
+        for(i=d+1;i<n;i++)
         {
             if(c < (a[d]*a[i]))
             {
