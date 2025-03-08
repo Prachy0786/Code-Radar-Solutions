@@ -4,7 +4,7 @@ int main()
 {
     int n; scanf("%d",&n);
     int i,a[n];
-    int c=0,d=-1;
+    int c=0,d=-100;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -17,5 +17,12 @@ int main()
             }
         }
     }
-    printf("%d",d);
+    if(d!=-100)
+    {
+        printf("%d",d);
+    }
+    else
+    {
+        printf("-1");
+    }
 }
