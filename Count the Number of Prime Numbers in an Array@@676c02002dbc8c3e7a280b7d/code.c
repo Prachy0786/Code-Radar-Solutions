@@ -9,6 +9,9 @@ int main()
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i=i+1)
+    {
         for(int j=2;j<a[i];j++)
         {
             if(a[i]%j==0)
