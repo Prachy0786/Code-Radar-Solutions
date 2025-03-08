@@ -13,7 +13,7 @@ int main()
         {
           d=c%10;
           sum=sum+d;
-          d=d/10;
+          c=c/10;
         }
         printf("%d ",&sum);
     }
