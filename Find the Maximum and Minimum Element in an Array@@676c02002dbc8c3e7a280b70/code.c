@@ -1,5 +1,5 @@
 
-{
+
     int n;    scanf("%d",&n);
     int c=0,d=100000;
     int i,a[n];
@@ -16,4 +16,4 @@
         }
     }
     printf("%d %d",c,d);
-}
+
