@@ -9,8 +9,6 @@ int main()
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
-        if(a[i]>1)
-        {
         for(int j=2;j<a[i];j++)
         {
             if(a[i]%j==0)
@@ -19,11 +17,10 @@ int main()
                 break;
             }
         }
-        if(d==1)
+        if(d==1 && a[i]>1)
         {
             c=c+1;
         }
-        }
-    } 
+    }
     printf("%d",c);   
 }    
