@@ -15,7 +15,7 @@ int main()
           sum=sum+d;
           c=c/10;
         }
-        printf("%d ",&sum);
+        printf("%d ",sum);
     }
     return 0;
 }
