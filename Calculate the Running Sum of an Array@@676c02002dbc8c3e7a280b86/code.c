@@ -9,4 +9,5 @@ int main()
         c=c+a[i];
         printf("%d ",c);
     }
+    return 0;
 }
