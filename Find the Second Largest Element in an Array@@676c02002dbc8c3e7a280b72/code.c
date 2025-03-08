@@ -3,7 +3,7 @@
 int main()
 {
     int n;   scanf("%d",&n);
-    int i,a[n],c=-1,d=-1;
+    int i,a[n],c=-100,d=-100;
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
@@ -20,5 +20,12 @@ int main()
             }
         }
     }
-    printf("%d",d);
+    if(d!=(-1000) && c!=d)
+    {
+        printf("%d",d);
+    }
+    else
+    {
+        printf("-1");
+    }
 }
