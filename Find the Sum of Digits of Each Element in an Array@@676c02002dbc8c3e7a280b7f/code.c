@@ -7,7 +7,7 @@ int main()
     for(i=0;i<n;i=i+1)
     {
         scanf("%d",&a[i]);
-        c=a[i];
+        c=abs(a[i]);
         int sum=0;
         while(c>0)
         {
