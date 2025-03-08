@@ -9,6 +9,7 @@ int main()
     }
     if(n%2!=0)
     {
-        printf("%d",a[(n/2)+1]);
+        int c=n/2 +1;
+        printf("%d",a[c]);
     }
 }
