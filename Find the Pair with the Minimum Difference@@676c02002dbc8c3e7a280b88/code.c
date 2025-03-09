@@ -14,27 +14,27 @@ int main()
     }
     else
     {
-        int d;
-        for(d=0;d<n;d++)
+        int g;
+        for(g=0;g<n;g++)
         {
-            for(i=d+1;i<n;i++)
+            for(i=g+1;i<n;i++)
             {
-                if(a[i]>a[d])
+                if(a[i]>a[g])
                 {
-                    if(c<(a[i]-a[d]))
+                    if(c<(a[i]-a[g]))
                     {
-                        c = a[i]-a[d];
-                        d = a[d];
+                        c = a[i]-a[g];
+                        d = a[g];
                         e = a[i];
                     }
                 }
                 else
                 {
-                    if(c<(a[d]-a[i]))
+                    if(c<(a[g]-a[i]))
                     {
-                        c = a[d]-a[i];
+                        c = a[g]-a[i];
                         d = a[i];
-                        e = a[d];
+                        e = a[g];
                     }
                 }
             }
