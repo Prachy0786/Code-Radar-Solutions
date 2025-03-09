@@ -23,7 +23,14 @@ int main()
     }
     else
     {
-        printf("-1");
+        if(c==0)
+        {
+            printf("%d",a[n-1]);
+        }
+        else
+        {
+            printf("-1");
+        }    
     }    
     return 0;
 }
