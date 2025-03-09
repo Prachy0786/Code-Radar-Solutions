@@ -25,7 +25,7 @@ int main()
                     {
                         c = a[i]-a[d];
                         d = a[d];
-                        e = a[i]
+                        e = a[i];
                     }
                 }
                 else
