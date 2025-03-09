@@ -12,7 +12,7 @@ int main()
     {   int c=1;
         for(i=d+1;i<n;i++)
         {
-            if(!(a[d]>a[i]))
+            if(!(a[d]>=a[i]))
             {
                 c=0;
             }
