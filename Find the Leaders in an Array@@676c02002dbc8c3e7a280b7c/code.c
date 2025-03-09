@@ -7,9 +7,9 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    int d,c=1;
+    int d;
     for(d=0;d<n;d++)
-    {
+    {   int c=1;
         for(i=d+1;i<n;i++)
         {
             if(a[d]>!a[i])
