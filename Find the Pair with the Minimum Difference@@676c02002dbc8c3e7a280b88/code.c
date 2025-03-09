@@ -21,7 +21,7 @@ int main()
             {
                 if(a[i]>a[g])
                 {
-                    if(c<(a[i]-a[g]))
+                    if(c>(a[i]-a[g]))
                     {
                         c = a[i]-a[g];
                         d = a[g];
@@ -30,7 +30,7 @@ int main()
                 }
                 else
                 {
-                    if(c<(a[g]-a[i]))
+                    if(c>(a[g]-a[i]))
                     {
                         c = a[g]-a[i];
                         d = a[i];
