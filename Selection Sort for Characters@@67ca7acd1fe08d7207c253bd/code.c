@@ -1,6 +1,9 @@
 // Your code here...
-
-int selectionSort(char *a,int n)
+void printArray(char* a,int n)
+{
+    
+}
+void selectionSort(char* a,int n)
 {
     int d,i;   char c;
     for(d=0;d<n;d++)
