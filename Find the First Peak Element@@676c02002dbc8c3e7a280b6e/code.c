@@ -24,7 +24,7 @@ int main()
     else
     {
         
-        if(c<a[n-1])
+        if(c<a[n-1] && a[n-2]!=a[n-1])
         {
             printf("%d",a[n-1]);
         }
