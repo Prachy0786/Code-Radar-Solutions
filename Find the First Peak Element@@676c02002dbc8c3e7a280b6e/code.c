@@ -24,7 +24,14 @@ int main()
     else
     {
         
-        printf("-1");
+        if(c<a[n-1])
+        {
+            printf("%d",a[n-1]);
+        }
+        else
+        {
+            printf("-1");
+        }
     }     
     return 0;
 }
