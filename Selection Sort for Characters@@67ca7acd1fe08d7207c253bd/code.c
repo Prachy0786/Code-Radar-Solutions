@@ -1,13 +1,7 @@
 // Your code here...
-#include <stdio.h>
-int main()
+
+int selectionSort(char *arr,int n)
 {
-    int n;    scanf("%d",&n);
-    int i; char a[n];
-    for(i=0;i<n;i++)
-    {
-        scanf(" %c",a[i]);
-    }
     int d;   char c;
     for(d=0;d<n;d++)
     {
