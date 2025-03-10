@@ -1,6 +1,6 @@
 // Your code here...
 
-int selectionSort(char *arr,int n)
+int selectionSort(char *a,int n)
 {
     int d,i;   char c;
     for(d=0;d<n;d++)
