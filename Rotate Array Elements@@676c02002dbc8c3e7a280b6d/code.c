@@ -1,4 +1,4 @@
-// Your code here...
+
 #include<stdio.h>
 int main()
 {
@@ -13,8 +13,8 @@ int main()
     for(i=0;i<n-s;i++)
     {
         temp=a[i];
-        a[i]=a[i+s];
-        a[i+s]=temp;
+        a[i]=a[i+s-1];
+        a[i+s-1]=temp;
     }
     for(i=0;i<n;i++)
     {
