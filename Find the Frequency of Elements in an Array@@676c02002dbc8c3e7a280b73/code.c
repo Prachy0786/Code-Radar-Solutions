@@ -8,17 +8,17 @@ int main()
         scanf("%d",&a[i]);
     }
     int e=0,d,z=0,k;
-    for(i=0;i<=n-e;i++)
+    for(i=0;i<n-e;i++)
     {
         int f=1;
-        for(d=i+1;d<=n-e;d++)
+        for(d=i+1;d<n-e;d++)
         {
             if(a[i]==a[d])
             {
                 e++;    
                 z=d;
                 f++;
-                for(k=z;k<=n-e;k++)
+                for(k=z;k<n-e;k++)
                 {
                     a[k]=a[k+1];
                 }
