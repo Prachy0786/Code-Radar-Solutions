@@ -31,5 +31,5 @@ int main()
             e=a[i];
         }
     }
-    printf("%d %d",j,e);
+    printf("%d %d",e,j);
 }
