@@ -22,6 +22,12 @@ int main()
             }
         }
     }
+    if(n==1)
+    {
+        printf("-1");
+    }
+    else
+    {
     for(i=0;i<n-1;i++)
     {
         if(a[i+1]-a[i]<c)
@@ -32,4 +38,5 @@ int main()
         }
     }
     printf("%d %d",e,j);
+    }
 }
