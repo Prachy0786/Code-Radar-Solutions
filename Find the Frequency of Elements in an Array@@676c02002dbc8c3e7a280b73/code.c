@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int n,   scanf("%d",&n);
+    int n;   scanf("%d",&n);
     int i,a[n];
     for(i=0;i<n;i++)
     {
         scanf("%d",a[i]);
     }
-    int e=0,d,z=0;
+    int e=0,d,z=0,k;
     for(i=0;i<=9-e;i++)
     {
         int f=1;
@@ -25,6 +25,6 @@ int main()
                 d--;
             }
         }
-        printf("%d %d",a[i],f);
+        printf("%d %d\n",a[i],f);
     }
 }
