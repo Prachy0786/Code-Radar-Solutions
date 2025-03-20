@@ -9,9 +9,13 @@ int main()
     }
     int s;     scanf("%d",&s);
     int temp=0;
-    for(i=0;i<n;i++)
+    for(i=0;i<s;i++)
     {
-        a[i+s]=a[i];
+    for(i=0;i<n-1;i++)
+    {
+        a[i]=a[i+1];
+    }
+    a[n-1]=a[0];
     }
     for(i=0;i<n;i++)
     {
