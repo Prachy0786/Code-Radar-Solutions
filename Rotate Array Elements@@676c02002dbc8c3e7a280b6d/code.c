@@ -11,9 +11,7 @@ int main()
     int temp=0;
     for(i=0;i<n-s;i++)
     {
-        temp=a[i];
-        a[i]=a[i+s];
-        a[i+s]=temp;
+        a[i+s]=a[i];
     }
     for(i=0;i<n;i++)
     {
