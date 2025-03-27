@@ -21,7 +21,7 @@ int main()
                 a[i]=a[d];
             }
         }
-        d--;
+        d=d-1;
     }
     for(i=1;i<=c;i++)
     {
