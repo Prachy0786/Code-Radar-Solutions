@@ -16,7 +16,7 @@ int main()
     {
         for(d=i+1;d<n;d++)
         {
-            if(a[i]==0)
+            if(a[d]==0)
             {
                 a[i]=a[d];
             }
