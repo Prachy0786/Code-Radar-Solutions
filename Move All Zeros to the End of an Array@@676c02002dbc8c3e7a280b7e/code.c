@@ -19,6 +19,7 @@ int main()
             if(a[i]==0)
             {
                 a[i]=a[d];
+                a[d]=0;
             }
         }
         d=d-1;
