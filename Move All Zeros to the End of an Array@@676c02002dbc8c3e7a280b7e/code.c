@@ -20,6 +20,7 @@ int main()
                 a[i]=a[d];
             }
         }
+        d--;
     }
     for(i=1;i<=c;i++)
     {
