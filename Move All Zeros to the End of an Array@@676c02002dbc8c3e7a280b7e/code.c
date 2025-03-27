@@ -11,9 +11,10 @@ int main()
             c++;
         }
     }
+    int d;
     for(i=0;i<n-1;i++)
     {
-        for(int d=i+1;d<n;d++)
+        for(d=i+1;d<n;d++)
         {
             if(a[i]==0)
             {
