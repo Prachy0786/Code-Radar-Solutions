@@ -16,12 +16,12 @@ int main()
     {
         for(d=i+1;d<n;d++)
         {
-            if(a[d]==0)
+            if(a[i]==0)
             {
                 a[i]=a[d];
             }
         }
-        d--;
+        i--;
     }
     for(i=1;i<=c;i++)
     {
