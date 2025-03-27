@@ -11,8 +11,6 @@ int main()
             c++;
         }
     }
-    for(int k=0;k<n;k++)
-    {
     for(i=0;i<n-1;i++)
     {
         for(int d=i+1;d<n;d++)
@@ -22,7 +20,6 @@ int main()
                 a[i]=a[d];
             }
         }
-    }
     }
     for(i=1;i<=c;i++)
     {
