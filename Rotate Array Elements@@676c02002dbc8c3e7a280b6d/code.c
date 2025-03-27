@@ -10,10 +10,10 @@ int main()
     int s;     scanf("%d",&s);
     for(i=0;i<s;i++)
     {
-        int k=a[0];
-        for(int d=0;d<n-1;d++)
+        int k=a[4];
+        for(int d=n-1;d>0;d--)
         {
-            a[d]=a[d++];
+            a[d]=a[d-1];
         }
         a[n-1]=k;
     }
