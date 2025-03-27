@@ -8,19 +8,17 @@ int main()
         scanf("%d",&a[i]);
     }
     int s;     scanf("%d",&s);
-    int temp=0;
     for(i=0;i<s;i++)
     {
-    for(i=0;i<n-1;i++)
-    {
-        temp=a[i];
-        a[i]=a[i+1];
-        a[i+1]=temp;
-    }
-    a[n-1]=a[0];
+        int k=a[4];
+        for(int d=0;d<n-1;d++)
+        {
+            a[d]=a[d++];
+        }
+        a[0]=k;
     }
     for(i=0;i<n;i++)
     {
-        printf("%d\n",a[i]);
+        printf("%d",a[i]);
     }
 }
