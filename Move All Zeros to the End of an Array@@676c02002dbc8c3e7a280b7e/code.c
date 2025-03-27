@@ -26,7 +26,7 @@ int main()
     }
     for(i=1;i<=c;i++)
     {
-        a[n-1-i]=0;
+        a[n-i]=0;
     }
     for(i=0;i<n;i++)
     {
