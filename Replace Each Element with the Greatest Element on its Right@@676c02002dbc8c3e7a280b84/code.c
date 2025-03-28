@@ -10,7 +10,7 @@ int main()
     int d;
     for(d=0;d<n-1;d++)
     {
-        for(i=d+1;i<n-1;i++)
+        for(i=d+1;i<n;i++)
         {
             if(a[d]<a[i])
             {
