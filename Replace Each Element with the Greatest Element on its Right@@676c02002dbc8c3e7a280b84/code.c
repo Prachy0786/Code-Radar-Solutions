@@ -15,7 +15,6 @@ int main()
             if(a[d]<a[i])
             {
                 a[d]=a[i];
-                a[i]=0;
             }
         }
     }
