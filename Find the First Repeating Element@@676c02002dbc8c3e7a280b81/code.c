@@ -14,7 +14,7 @@ int main()
         {
             if(a[d]==a[i])
             {
-                k=d;
+                k=a[d];
                 break;
             }
         }
