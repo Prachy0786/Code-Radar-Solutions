@@ -12,9 +12,9 @@ int main()
     {
         for(i=d+1;i<n;i++)
         {
-            if(a[d]==a[i])
+            if(a[i]==a[d])
             {
-                k=a[d];
+                k=a[i];
                 break;
             }
         }
