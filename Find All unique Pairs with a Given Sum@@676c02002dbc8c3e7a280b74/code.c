@@ -17,8 +17,8 @@ int main()
             if(k==(a[i]+a[d]))
             {
                 printf("%d %d\n",a[d],a[i]);
-                break;
             }
+            break;
         }
     }
 }
