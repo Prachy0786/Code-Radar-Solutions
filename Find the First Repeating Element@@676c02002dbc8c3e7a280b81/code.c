@@ -15,8 +15,12 @@ int main()
             if(a[i]==a[d])
             {
                 k=a[i];
-                break;
+                c=1;
             }
+        }
+        if(c==1)
+        {
+            break;
         }
     }
     printf("%d",k);
