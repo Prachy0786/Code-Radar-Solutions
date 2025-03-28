@@ -10,11 +10,12 @@ int main()
     int d;
     for(d=0;d<n-1;d++)
     {
-        for(i=d+1;i<n;i++)
+        for(i=d+1;i<n-1;i++)
         {
             if(a[d]<a[i])
             {
                 a[d]=a[i];
+                a[i]=a[i+1];
             }
         }
     }
