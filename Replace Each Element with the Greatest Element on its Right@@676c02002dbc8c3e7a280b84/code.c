@@ -7,14 +7,16 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n-1;i++)
+    for(d=0;d<n-1;d++)
     {
-        if(a[i]<a[i+1])
+        for(i=d+1;i<n;i++)
         {
-            a[i]=a[i+1];
-            a[i+1]=0;
+            if(a[d]<a[i])
+            {
+                a[d]=a[i];
+                a[i]=0;
+            }
         }
-        
     }
     for(i=0;i<n;i++)
     {
